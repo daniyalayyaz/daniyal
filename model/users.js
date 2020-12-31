@@ -6,7 +6,7 @@ Username:String,
 Password:String,
 role:{
     type:String,
-    default:'admin',
+    default:'user',
 },
 });
 
