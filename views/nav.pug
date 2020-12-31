@@ -1,19 +1,42 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Edureka</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+header#header.fixed-top
+  .container-fluid.d-flex.justify-content-between.align-items-center
+    .logo-box
+      img.logo(src='/images/logo-white.png')
+    nav.nav-menu.d-none.d-lg-block
+      ul
+        li
+          a(href='/#AboutSec') About Natours
+        li
+          a(href='/#Benefits') Your Benefits
+        li
+          a(href='/#Popular') Popular Tours
+        li
+          a(href='/#Stories') Stories
+        li
+          a(href='/product/Contact') ContactForm 
+        if !user&&!admin  
+          li 
+            a(href='/LandingPage') Book Now
+        if user  
+          li
+            a(href='/product/productBooking') Book Tour
+          li
+            a(href='/users/LogOut') Log Out 
+        if admin  
+          li
+            a(href='/product/Book') See Booking 
+          li
+            a(href='/users/RegisterUser') See Registered User 
+          li
+            a(href='/users/LogOut') Log Out   
+            
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/product">Courses List</a>
-      </li>
-     
-    </ul>
-    
-  </div>
-</nav>
+    .header-social-links
+      a.twitter(href='https://twitter.com/LOGIN')
+        i.icofont-twitter
+      a.facebook(href='https://www.facebook.com/')
+        i.icofont-facebook
+      a.instagram(href='https://www.instagram.com/')
+        i.icofont-instagram
+      a.linkedin(href='https://www.linkedin.com/login')
+        i.icofont-linkedin

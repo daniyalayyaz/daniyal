@@ -1,0 +1,22 @@
+extends layout
+block content
+  .container-fluid.section-book
+   #Book.container 
+    .container.my-4
+      .row.mt-4
+         .col-8
+         .col-4
+      table.table.table-dark.font-weight-bold.mb-2#yes
+          thead
+            tr
+              th  Name
+              th Email
+              th TourType
+          tbody
+            each Product in Tour
+              tr
+                td= Product.Name
+                td= Product.Email
+                td= Product.TourType
+                
+            

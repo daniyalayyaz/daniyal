@@ -1,0 +1,25 @@
+
+extends ./layout
+block content
+ .container-fluid.section-book
+  #Book.container
+    .row
+      .col-md-12.col-12.book
+        h1.danger=a
+        .book_form
+          form.form(action='/product/Contactsent', method="post")
+            .center-text.margin-bottom-medium.pt-5
+              h2.heading-secondary
+                | Start Booking Now
+            .form-group
+              input#name.form_input(type='text' placeholder='Full Name' required=''  name='Name')
+              label.form_label(for='name') Full Name
+            .form-group
+              input#email.form_input(type='email' placeholder='Email Address' required=''  name='Email')
+              label.form_label(for='email') Email Address
+            .form-group
+              input#email.form_input(type='text' placeholder='text')
+              label.form_label(for='email') Enter Text
+            .form-group.mt-5
+              input.btn.btn-green( value=' submit' type='submit')
+              

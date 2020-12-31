@@ -1,0 +1,46 @@
+html,
+body {
+  background-image: url("../images/hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  font-family: "Numans", sans-serif;
+}
+
+.container {
+  height: 100%;
+  align-content: center;
+}
+
+.card {
+  height: 200px;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card-header h3 {
+  text-align: center;
+  color: white;
+}
+
+.login_btn {
+  color: black;
+  background-color: #72e172;
+  width: 100px;
+}
+.register_btn {
+  color: black;
+  background-color: #72e172;
+  width: 100px;
+}
+
+.login_btn:hover {
+  color: black;
+  background-color: white;
+}
+.register_btn:hover {
+  color: black;
+  background-color: white;
+}

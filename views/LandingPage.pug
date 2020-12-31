@@ -1,0 +1,11 @@
+extends Layout2
+block content
+  .container
+    .d-flex.justify-content-center.h-100
+      .card
+        .card-header
+          h3 Welcome to Natours
+        .card-body.text-center
+          a.btn.login_btn.mr-2(href='/users/Login' role='button') Login
+          a.btn.login_btn(type='submit' href='/users/register' ) Registration
+

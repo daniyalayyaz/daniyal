@@ -1,0 +1,30 @@
+extends ../layout
+
+block content
+ .container-fluid.section-book
+   #Book.container
+    .container
+        .row.mt-4
+          .col-8
+        
+          .col-4
+        table.table.table-dark#usersr
+          thead
+            tr
+              
+              th User Email
+              th User Username
+              th User Password
+          tbody
+            each RegisterUser in RegisteredUser
+              if RegisterUser.role=="user"
+                tr
+                  td= RegisterUser.Email
+                  td= RegisterUser.Username
+                  td= RegisterUser.Password
+                script.
+                  $(document).ready(function() {
+                    $('#usersr').DataTable();
+                  })
+          
+          

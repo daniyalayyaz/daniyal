@@ -1,0 +1,32 @@
+
+extends ./layout
+block content
+ .container-fluid.section-book
+  #Book.container
+    .row
+      .col-md-12.col-12.book
+        h1.danger=a
+        .book_form
+          form.form(action='/product/BookingAdd', method="post")
+            .center-text.margin-bottom-medium.pt-5
+              h2.heading-secondary
+                | Start Booking Now
+            .form-group
+              input#name.form_input(type='text' placeholder='Full Name' required=''  name='Name')
+              label.form_label(for='name') Full Name
+            .form-group
+              input#email.form_input(type='email' placeholder='Email Address' required=''  name='Email')
+              label.form_label(for='email') Email Address
+            .form_radio-group
+              input#small.form_radio-input(type='radio'  value='Friend Tour' name='TourType')
+              label.form_radio-label(for='small')
+                span.form_radio-button
+                |                            Friend Tour
+            .form_radio-group
+              input#large.form_radio-input(type='radio'  value='FamilyTour' name='TourType')
+              label.form_radio-label(for='large')
+                span.form_radio-button
+                |                            Family Tour
+            .form-group.mt-5
+              input.btn.btn-green( value=' Request Consultation →' type='submit')
+              
