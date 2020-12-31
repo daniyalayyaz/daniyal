@@ -9,7 +9,7 @@ router.get('/Book',sessioncheckAdmin, async function(req, res, next) {  // Admin
   let Tour=await Product.find();
  
   
-  res.render('productlis',{Tour});
+  res.render('Productlis',{Tour});
 });
 
 
