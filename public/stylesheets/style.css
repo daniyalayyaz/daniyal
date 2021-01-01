@@ -639,15 +639,15 @@ body {
 }
 .card_picture--1 {
   background-image: linear-gradient(to right bottom, #ffb900, #ff7730),
-    url(../Images/nat-5.jpg);
+    url(../images/nat-5.jpg);
 }
 .card_picture--2 {
   background-image: linear-gradient(to right bottom, #008000, #28b485),
-    url(../Images/nat-6.jpg);
+    url(../images/nat-6.jpg);
 }
 .card_picture--3 {
   background-image: linear-gradient(to right bottom, #2998ff, #5643fa),
-    url(../Images/nat-7.jpg);
+    url(../images/nat-7.jpg);
 }
 .card_heading {
   font-size: 28px;
@@ -951,7 +951,7 @@ body {
       rgba(0, 128, 0, 0.8),
       rgba(40, 180, 133, 0.8)
     ),
-    url(../Images/nat-4.jpg);
+    url(../images/nat-4.jpg);
   background-size: cover;
   transform: skewY(-7deg);
   margin-top: -100px;
@@ -984,7 +984,7 @@ body {
       rgba(255, 255, 255, 0.9) 100%,
       transparent 50%
     ),
-    url(../Images/nat-10.jpg);
+    url(../images/nat-10.jpg);
   background-size: cover;
   height: 500px;
   border-radius: 3px;
@@ -1002,7 +1002,7 @@ body {
       rgba(0, 128, 0, 0.7),
       rgba(40, 180, 133, 0.7)
     ),
-    url(../Images/hero.jpg);
+    url(../images/hero.jpg);
   background-size: cover;
   background-position: top;
   position: relative;
