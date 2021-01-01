@@ -327,7 +327,7 @@ text-decoration: none;
 
 .header-social-links a {
   color: white;
-  padding-left: 6px;
+  padding-left: 10px;
   display: inline-block;
   line-height: 1px;
   transition: 0.3s;
@@ -918,7 +918,6 @@ body {
 .section-about {
   background-color: #f7f7f7;
   padding: 200px 0;
-  margin-top: -20vh;
 }
 
 .section-features {
@@ -936,7 +935,6 @@ body {
   background-color: #f7f7f7 opacity(0.5);
   padding-top: 250px;
   padding-bottom: 100px;
-  margin-top: -20vh;
 }
 
 .section-stories {
