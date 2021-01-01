@@ -113,8 +113,8 @@ html {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
 }
-.nav-menu a:hover {
-  text-decoration: none;
+.nav-menu a:hover{
+text-decoration: none;
 }
 .nav-menu > ul > li > a:before {
   content: "";
@@ -129,9 +129,7 @@ html {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.nav-menu a:hover:before,
-.nav-menu li:hover > a:before,
-.nav-menu .active > a:before {
+.nav-menu a:hover:before, .nav-menu li:hover > a:before, .nav-menu .active > a:before {
   visibility: visible;
   width: 25px;
 }
@@ -169,9 +167,7 @@ html {
   color: #222222;
 }
 
-.nav-menu .drop-down ul a:hover,
-.nav-menu .drop-down ul .active > a,
-.nav-menu .drop-down ul li:hover > a {
+.nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
   color: #34b7a7;
 }
 
@@ -266,9 +262,7 @@ html {
   outline: none;
 }
 
-.mobile-nav a:hover,
-.mobile-nav .active > a,
-.mobile-nav li:hover > a {
+.mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
   color: #34b7a7;
   text-decoration: none;
 }
@@ -513,8 +507,7 @@ body {
   animation-duration: 0.2s;
 }
 
-.btn-text:link,
-.btn-text:visited {
+.btn-text:link, .btn-text:visited {
   font-size: 16px;
   color: #55c57a;
   text-decoration: none;
@@ -638,16 +631,13 @@ body {
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
 .card_picture--1 {
-  background-image: linear-gradient(to right bottom, #ffb900, #ff7730),
-    url(../images/nat-5.jpg);
+  background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../Images/nat-5.jpg);
 }
 .card_picture--2 {
-  background-image: linear-gradient(to right bottom, #008000, #28b485),
-    url(../images/nat-6.jpg);
+  background-image: linear-gradient(to right bottom, #008000, #28b485), url(../Images/nat-6.jpg);
 }
 .card_picture--3 {
-  background-image: linear-gradient(to right bottom, #2998ff, #5643fa),
-    url(../images/nat-7.jpg);
+  background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../Images/nat-7.jpg);
 }
 .card_heading {
   font-size: 28px;
@@ -666,25 +656,13 @@ body {
   box-decoration-break: clone;
 }
 .card_heading-span--1 {
-  background-image: linear-gradient(
-    to right bottom,
-    rgba(255, 185, 0, 0.85),
-    rgba(255, 119, 48, 0.85)
-  );
+  background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85));
 }
 .card_heading-span--2 {
-  background-image: linear-gradient(
-    to right bottom,
-    rgba(0, 128, 0, 0.85),
-    rgba(40, 180, 133, 0.85)
-  );
+  background-image: linear-gradient(to right bottom, rgba(0, 128, 0, 0.85), rgba(40, 180, 133, 0.85));
 }
 .card_heading-span--3 {
-  background-image: linear-gradient(
-    to right bottom,
-    rgba(41, 152, 255, 0.85),
-    rgba(86, 67, 250, 0.85)
-  );
+  background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85));
 }
 .card_details {
   padding: 30px;
@@ -887,8 +865,7 @@ body {
   opacity: 1;
   visibility: visible;
 }
-.popup_close:link,
-.popup_close:visited {
+.popup_close:link, .popup_close:visited {
   color: #000;
   position: absolute;
   font-size: 30px;
@@ -946,12 +923,7 @@ body {
 
 .section-features {
   padding: 200px 0;
-  background-image: linear-gradient(
-      to right bottom,
-      rgba(0, 128, 0, 0.8),
-      rgba(40, 180, 133, 0.8)
-    ),
-    url(../images/nat-4.jpg);
+  background-image: linear-gradient(to right bottom, rgba(0, 128, 0, 0.8), rgba(40, 180, 133, 0.8)), url(../Images/nat-4.jpg);
   background-size: cover;
   transform: skewY(-7deg);
   margin-top: -100px;
@@ -978,13 +950,7 @@ body {
 }
 
 .book {
-  background-image: linear-gradient(
-      105deg,
-      rgba(255, 255, 255, 0.9) 0%,
-      rgba(255, 255, 255, 0.9) 100%,
-      transparent 50%
-    ),
-    url(../images/nat-10.jpg);
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%, transparent 50%), url(../Images/nat-10.jpg);
   background-size: cover;
   height: 500px;
   border-radius: 3px;
@@ -992,17 +958,12 @@ body {
 }
 .book_form {
   width: 80%;
-  margin: 0 auto;
+ margin: 0 auto;
 }
 
 .header {
   height: 95vh;
-  background-image: linear-gradient(
-      to right bottom,
-      rgba(0, 128, 0, 0.7),
-      rgba(40, 180, 133, 0.7)
-    ),
-    url(../images/hero.jpg);
+  background-image: linear-gradient(to right bottom, rgba(0, 128, 0, 0.7), rgba(40, 180, 133, 0.7)), url(../Images/hero.jpg);
   background-size: cover;
   background-position: top;
   position: relative;
@@ -1048,15 +1009,13 @@ body {
 .footer_item:not(:last-child) {
   margin-bottom: 15px;
 }
-.footer_link:link,
-.footer_link:visited {
+.footer_link:link, .footer_link:visited {
   color: #f7f7f7;
   background: #333;
   text-transform: uppercase;
   text-decoration: none;
 }
-.footer_link:hover,
-.footer_link:active {
+.footer_link:hover, .footer_link:active {
   color: #55c57a;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
 }
@@ -1113,31 +1072,23 @@ body {
 .navigation_item {
   margin: 20px;
 }
-.navigation_link:link,
-.navigation_link:visited {
+.navigation_link:link, .navigation_link:visited {
   display: inline-block;
   font-size: 25px;
   text-decoration: none;
   color: #fff;
   text-transform: uppercase;
-  background-image: linear-gradient(
-    120deg,
-    transparent 0%,
-    transparent 50%,
-    #fff 50%
-  );
+  background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #fff 50%);
   padding: 5px 20px;
   background-size: 220%;
   transition: all 0.4s;
 }
-.navigation_link:link span,
-.navigation_link:visited span {
+.navigation_link:link span, .navigation_link:visited span {
   margin-right: 10px;
   display: inline-block;
   font-weight: 100;
 }
-.navigation_link:hover,
-.navigation_link:active {
+.navigation_link:hover, .navigation_link:active {
   background-position: 100%;
   color: #55c57a;
   transform: translateX(10px);
@@ -1172,9 +1123,7 @@ body {
   background-color: #333;
   display: inline-block;
 }
-.navigation_icon,
-.navigation_icon::before,
-.navigation_icon::after {
+.navigation_icon, .navigation_icon::before, .navigation_icon::after {
   content: "";
   left: 0;
   position: absolute;
