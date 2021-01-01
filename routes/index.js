@@ -11,6 +11,11 @@ router.get('/LandingPage', async function(req, res, next) {  // Admin view
   
   res.render('LandingPage');
 });
+router.get('/Learn', async function(req, res, next) {  // Admin view
+
+  
+  res.render('LearnMore');
+});
 router.get('/about/*',function(req,res){
   var error='error content not find ';
   res.status(500).render('error',{error})
